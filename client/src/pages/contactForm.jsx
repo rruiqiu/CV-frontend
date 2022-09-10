@@ -9,7 +9,7 @@ const ConotactForm = () => {
   })
 
   const handleSubmit = (event) => {
-    Axios.post("http://localhost:3004/information", {
+    Axios.post("https://ps-portfolio-backend.herokuapp.com/information", {
       name: contact.name,
       email: contact.email,
       message: contact.message
