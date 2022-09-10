@@ -126,6 +126,10 @@
   color: black !important;
 }
 
+.aboutnabvar:hover {
+  color: #66a12e !important;
+}
+
 .size {
   height: 600px;
   width: 500px;
