@@ -139,7 +139,8 @@
   display: block;
   margin-left: auto;
   margin-right: auto;
-  height: 400px;
+  width: 290px;
+  border-radius: 25px;
 }
 
 .inline {
@@ -152,5 +153,25 @@ h6.inline {
 
 #about {
   background-color: #dbecfe;
-  padding-bottom: 50px;
+  padding-bottom: 40px;
+}
+
+.aboutContent {
+  align-items: center;
+}
+
+.icon {
+  padding: 0 20px;
+}
+
+.iconposition {
+  text-align: center;
+}
+
+.Education {
+  font-size: large;
+  font-weight: 600;
+}
+.imgpos {
+  margin-bottom: 10px;
 }
