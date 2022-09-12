@@ -7,21 +7,22 @@ import Projects from "./projects"
 
 function About () {
   return (
+    <div>
 
-    <div className="aboutBackground">
       <Navbar variant="light"
         navbarcolor="aboutnabvar"
+        navbar="navbar-aboutpage"
       />
-      <Container maxWidth="lg">
-        <Intro />
 
-        <section id="projects">Project</section>
-        <Projects />
-        <section id="contacts">Contact Me</section>
-        <ContactMe />
-      </Container>
+      <Intro />
+
+      <Projects />
+
+      <ContactMe />
+
+
+
     </div>
-
   )
 
 }

@@ -8,7 +8,8 @@ function TextLinkExample () {
   return (
     <section id="header">
       <Navbar
-        variant={"dark"} />
+        variant={"dark"}
+        navbar={"navbar-homepage"} />
       <div className='content'>
         <Typist
           cursor={{ hideWhenDone: true, element: "" }}

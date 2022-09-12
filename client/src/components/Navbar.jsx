@@ -6,7 +6,7 @@ import Navbar from 'react-bootstrap/Navbar'
 function navbar (props) {
   return (
 
-    <Navbar id="navbar" variant={props.variant} expand="lg" bg={props.bgcolor} >
+    <Navbar className={props.navbar} variant={props.variant} expand="lg" bg={props.bgcolor} >
       <Container style={{ marginLeft: "70px", marginRight: "70px" }}>
         <Navbar.Toggle aria-controls="basic-navbar-nav" />
         <Navbar.Collapse id="basic-navbar-nav">

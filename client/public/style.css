@@ -2,9 +2,14 @@
   margin: 0 18px;
 }
 
-#navbar {
+.navbar-homepage {
   font-family: 'Silkscreen', cursive;
   font-size: 22px;
+}
+.navbar-aboutpage {
+  font-family: 'Silkscreen', cursive;
+  font-size: 22px;
+  background-color: #dbecfe;
 }
 
 #header {
@@ -131,6 +136,21 @@
 }
 
 .size {
-  height: 600px;
-  width: 500px;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  height: 400px;
+}
+
+.inline {
+  display: inline;
+}
+
+h6.inline {
+  font-weight: bold;
+}
+
+#about {
+  background-color: #dbecfe;
+  padding-bottom: 50px;
 }
