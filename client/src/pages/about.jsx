@@ -13,15 +13,9 @@ function About () {
         navbarcolor="aboutnabvar"
         navbar="navbar-aboutpage"
       />
-
       <Intro />
-
       <Projects />
-
       <ContactMe />
-
-
-
     </div>
   )
 

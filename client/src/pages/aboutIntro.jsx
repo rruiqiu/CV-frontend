@@ -1,5 +1,5 @@
 import Grid from '@mui/material/Unstable_Grid2';
-import profile from "../img/profile.jpg"
+import profile from "../img/profile-3.jpg"
 import github from "../img/github.png"
 import wechat from "../img/wechat.png"
 import linkedin from "../img/linkedin.png"
