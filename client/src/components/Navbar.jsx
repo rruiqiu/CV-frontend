@@ -7,7 +7,7 @@ function navbar (props) {
   return (
 
     <Navbar className={props.navbar} variant={props.variant} expand="lg" bg={props.bgcolor} >
-      <Container style={{ marginLeft: "70px", marginRight: "70px" }}>
+      <Container className='containerSizing'>
         <Navbar.Toggle aria-controls="basic-navbar-nav" />
         <Navbar.Collapse id="basic-navbar-nav">
           <Nav className="me-auto">

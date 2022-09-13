@@ -1,10 +1,12 @@
 import Grid from '@mui/material/Unstable_Grid2';
 import profile from "../img/profile-3.jpg"
-import github from "../img/github.png"
-import wechat from "../img/wechat.png"
-import linkedin from "../img/linkedin.png"
+// import github from "../img/github.png"
 
 import { Container } from '@mui/material';
+import { FaGithub } from 'react-icons/fa';
+import { FaLinkedin } from 'react-icons/fa';
+import { Icon } from '@iconify/react';
+
 function AboutIntro () {
   return (<section id="about">
     <Container maxWidth="lg">
@@ -41,9 +43,9 @@ function AboutIntro () {
             </div>
 
             <div className='iconposition'>
-              <a href="https://github.com/rruiqiu"><img className='icon' src={github} alt="" srcset="" /></a>
-              <img className='icon' src={linkedin} alt="" srcset="" />
-              <img className='icon' src={wechat} alt="" srcset="" />
+              <a href="https://github.com/rruiqiu"><FaGithub color={"black"} size={"32px"} /></a>
+              <a href="https://github.com/rruiqiu"><FaLinkedin color={"#0072b1"} size={"32px"} /></a>
+              <a href="https://github.com/rruiqiu"><Icon icon="mdi:wechat" color="#09b83e" width="32" height="32" /></a>
             </div>
           </div>
         </Grid>
