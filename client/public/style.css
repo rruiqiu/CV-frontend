@@ -110,9 +110,13 @@
 }
 
 .footer {
+  display: flex;
+  flex-direction: column;
   text-align: center;
   opacity: 0.9;
   color: hsla(0, 0%, 100%, 0.8);
+  justify-content: flex-end;
+  height: 6vh;
 }
 .aboutBackground {
   background-color: #dbecfe;
@@ -168,6 +172,9 @@ h6.inline {
   text-align: center;
 }
 
+.iconpositionicon {
+  margin: 0 10px;
+}
 .Education {
   font-size: large;
   font-weight: 600;
@@ -190,5 +197,55 @@ h6.inline {
   .containerSizing {
     margin-left: 70px;
     margin-right: 70px;
+  }
+}
+
+#projects {
+  background-color: #98bae7;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  padding: 60px 40px;
+}
+
+/* #contacts .container-fluid {
+  padding: 2% 10%;
+} */
+
+.project_img_size {
+  height: 200px;
+  width: 300px;
+  border-radius: 15px;
+  display: block;
+  margin: auto;
+}
+
+#projects-container {
+  width: 80vw;
+}
+
+.project {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  margin-top: 20px;
+}
+
+.project-image {
+  margin-right: 30px;
+}
+.project-content {
+  border-radius: 15px;
+  background-color: #83abd3;
+  text-align: left;
+  padding: 25px;
+  width: 100%;
+}
+
+@media (max-width: 750px) {
+  .project {
+    flex-direction: column;
   }
 }

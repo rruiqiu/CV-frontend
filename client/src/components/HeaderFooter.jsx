@@ -11,8 +11,8 @@ function Footer () {
   }, [])
 
   return (<div className='footer'>
-    <p className="HeaderFooter">{data}</p>
-    <p className="Description">This is a daily generated background image fetched from BingWallpaper</p>
+    <div><p className="HeaderFooter">{data}</p></div>
+    <div><p className="Description">This is a daily generated background image fetched from BingWallpaper</p></div>
   </div>
   )
 }

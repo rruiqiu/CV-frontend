@@ -43,9 +43,9 @@ function AboutIntro () {
             </div>
 
             <div className='iconposition'>
-              <a href="https://github.com/rruiqiu"><FaGithub color={"black"} size={"32px"} /></a>
-              <a href="https://github.com/rruiqiu"><FaLinkedin color={"#0072b1"} size={"32px"} /></a>
-              <a href="https://github.com/rruiqiu"><Icon icon="mdi:wechat" color="#09b83e" width="32" height="32" /></a>
+              <a className='iconpositionicon' href="https://github.com/rruiqiu"><FaGithub color={"black"} size={"32px"} /></a>
+              <a className='iconpositionicon' href="https://github.com/rruiqiu"><FaLinkedin color={"#0072b1"} size={"32px"} /></a>
+              <a className='iconpositionicon' href="https://github.com/rruiqiu"><Icon icon="mdi:wechat" color="#09b83e" width="32" height="32" /></a>
             </div>
           </div>
         </Grid>
