@@ -4,7 +4,7 @@ function contact () {
     <section id="contact">
       <div>
 
-        <h1 style={{ textAlign: "center" }}>Contact Me!</h1>
+        <h1 style={{ textAlign: "center", maxWidth: "650px", width: "80vw" }}>Contact Me!</h1>
 
 
         <ContactForm />

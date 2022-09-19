@@ -37,7 +37,7 @@ const ConotactForm = () => {
 
   return (
     <div>
-      <p id="form-text">Want to discuss a project, ask a question, or just say hi? Leave me a message and I'll make sure to get back to you.</p>
+      <p id="form-text"></p>
       <form action="" method='POST' id="contact-form">
         <input type="text" onChange={handleChange} name="name" value={contact.name} placeholder="NAME" /><br />
         <input type="text" onChange={handleChange} name='email' value={contact.email} placeholder="Email" /><br />
