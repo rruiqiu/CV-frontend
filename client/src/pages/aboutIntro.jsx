@@ -8,7 +8,7 @@ import { Icon } from '@iconify/react';
 
 function AboutIntro () {
   return (<section id="about">
-    <Container maxWidth="lg">
+    <Container maxWidth="lg" className='containerWidth'>
       <h1 style={{ textAlign: "center", marginBottom: "15px" }}>About me</h1>
       <Grid container spacing={1}>
         <Grid xs={12} md={8} display="flex">

@@ -321,7 +321,8 @@ textarea {
 }
 
 @media (max-width: 1300px) {
-  .css-1oqqzyl-MuiContainer-root {
+  .containerWidth{
     width: 90% !important;
   }
 }
+
