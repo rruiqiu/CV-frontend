@@ -14,7 +14,7 @@ function navbar (props) {
 
             <Nav.Link className={`nav-item ${props.navbarcolor}`} href="/about">About</Nav.Link>
             <Nav.Link className={`nav-item ${props.navbarcolor}`} href="/about#projects">Projects</Nav.Link>
-            <Nav.Link className={`nav-item ${props.navbarcolor}`} href="/about#contacts">Contact</Nav.Link>
+            <Nav.Link className={`nav-item ${props.navbarcolor}`} href="/about#contact">Contact</Nav.Link>
 
           </Nav>
         </Navbar.Collapse>
