@@ -1,5 +1,4 @@
 import Grid from '@mui/material/Unstable_Grid2';
-import profile from "../img/profile-3.jpg"
 // import github from "../img/github.png"
 
 import { Container } from '@mui/material';
@@ -39,7 +38,7 @@ function AboutIntro () {
         <Grid xs={12} md={4} display="flex" justifyContent="center" alignItems="center" >
           <div>
             <div className='imgpos'>
-              <img src={profile} alt="" className='size' />
+              <img src="/images/profile-3.jpg" alt="" className='size' />
             </div>
 
             <div className='iconposition'>
