@@ -279,3 +279,43 @@ h6.inline {
     flex-direction: column;
   }
 }
+
+#contact {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  padding: 60px 40px;
+  background-color: #a2b3cf;
+}
+
+input,
+textarea {
+  background-color: #98d4dd;
+  color: #f1f1f1;
+  padding: 0.5em;
+  font-size: 1.1em;
+  margin: 10px 0;
+  border: 2px solid #025bba;
+  border-radius: 5px;
+  font-family: inherit;
+  width: 97%;
+  box-sizing: border-box;
+}
+#contact-form {
+  max-width: 650px;
+  text-align: center;
+}
+#form-text {
+  max-width: 650px;
+  text-align: left;
+}
+.formButton {
+  background-color: rgba(21, 141, 202, 0.149);
+  color: #000a44;
+  padding: 0.5em 2em;
+  font-size: 1.1em;
+  margin: 10px;
+  border: 2px solid #0e468a;
+  border-radius: 25px;
+}

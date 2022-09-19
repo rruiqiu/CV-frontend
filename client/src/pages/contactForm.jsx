@@ -37,11 +37,12 @@ const ConotactForm = () => {
 
   return (
     <div>
-      <form action="" method='POST'>
+      <p id="form-text">Want to discuss a project, ask a question, or just say hi? Leave me a message and I'll make sure to get back to you.</p>
+      <form action="" method='POST' id="contact-form">
         <input type="text" onChange={handleChange} name="name" value={contact.name} placeholder="NAME" /><br />
         <input type="text" onChange={handleChange} name='email' value={contact.email} placeholder="Email" /><br />
         <textarea name="message" onChange={handleChange} id="" cols="30" rows="10" value={contact.message} placeholder="Please enter your text here"></textarea>
-        <button onClick={handleSubmit}>Submit</button>
+        <button type='submit' className='formButton' onClick={handleSubmit}>Submit</button>
       </form>
 
     </div>

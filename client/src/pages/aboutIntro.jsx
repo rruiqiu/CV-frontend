@@ -38,7 +38,7 @@ function AboutIntro () {
         <Grid xs={12} md={4} display="flex" justifyContent="center" alignItems="center" >
           <div>
             <div className='imgpos'>
-              <img src="/images/profile-3.jpg" alt="" className='size' />
+              <img src="/images/profile.jpg" alt="" className='size' />
             </div>
 
             <div className='iconposition'>
