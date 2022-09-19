@@ -319,3 +319,9 @@ textarea {
   border: 2px solid #0e468a;
   border-radius: 25px;
 }
+
+@media (max-width: 1300px) {
+  .css-1oqqzyl-MuiContainer-root {
+    width: 90% !important;
+  }
+}
