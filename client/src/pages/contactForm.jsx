@@ -26,7 +26,6 @@ const ConotactForm = () => {
   }
   function handleChange (event) {
     const { name, value } = event.target
-
     setContact(prevContact => {
       return {
         ...prevContact,
@@ -38,7 +37,7 @@ const ConotactForm = () => {
   return (
     <div>
       <p id="form-text"></p>
-      <form action="" method='POST' id="contact-form">
+      <form action="" method='POST' id="contact-form" >
         <input type="text" onChange={handleChange} name="name" value={contact.name} placeholder="NAME" /><br />
         <input type="text" onChange={handleChange} name='email' value={contact.email} placeholder="Email" /><br />
         <textarea name="message" onChange={handleChange} id="" cols="30" rows="10" value={contact.message} placeholder="Please enter your text here"></textarea>

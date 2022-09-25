@@ -3,7 +3,7 @@ import ContactMe from "./contact"
 // import { Container } from '@mui/material';
 import Intro from "./aboutIntro"
 import Projects from "./projects"
-
+import Footer from "./footer"
 
 function About () {
   return (
@@ -16,6 +16,7 @@ function About () {
       <Intro />
       <Projects />
       <ContactMe />
+      <Footer />
     </div>
   )
 

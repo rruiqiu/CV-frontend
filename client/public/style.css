@@ -1,3 +1,20 @@
+body {
+  font-family: 'Source Sans Pro', sans-serif;
+}
+
+p,
+h6,
+a {
+  font-size: 108%;
+}
+
+h1 {
+  font-family: 'Ubuntu', sans-serif;
+}
+
+h3 {
+  font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
 .nav-item {
   margin: 0 18px;
 }
@@ -153,6 +170,7 @@
 
 h6.inline {
   font-weight: bold;
+  font-size: 108%;
 }
 
 #about {
@@ -219,6 +237,7 @@ h6.inline {
   border-radius: 15px;
   display: block;
   margin: auto;
+  border: 2mm ridge rgba(53, 198, 193, 0.6);
 }
 
 #projects-container {
@@ -264,8 +283,13 @@ h6.inline {
   padding: 0.4em 1em;
   border: 1px solid #f1f1f1;
   border-radius: 15px;
-  font-size: 1em;
+  /* font-size: 1em; */
 }
+.project-button:hover {
+  color: #84c943;
+  border: 1px solid rgba(138, 217, 2, 0.7);
+}
+
 .project-link {
   margin-top: 1rem;
 }
@@ -321,8 +345,38 @@ textarea {
 }
 
 @media (max-width: 1300px) {
-  .containerWidth{
+  .containerWidth {
     width: 90% !important;
   }
 }
 
+#footer {
+  padding: 10px 60px;
+  display: flex;
+  flex-direction: row;
+  background-color: #697686;
+  justify-content: space-between;
+}
+
+.footericonposition {
+  text-align: center;
+  padding: 10px 20px;
+}
+
+.links {
+  padding: 10px;
+}
+
+.footerp {
+  text-align: center;
+}
+p.footerp {
+  margin: 0;
+}
+.footerparagraph {
+  padding: 10px;
+  text-align: center;
+  font-family: 'Quicksand', sans-serif;
+  color: white;
+  opacity: 0.8;
+}
