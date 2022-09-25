@@ -42,9 +42,10 @@ function AboutIntro () {
             </div>
 
             <div className='iconposition'>
-              <a className='iconpositionicon' href="https://github.com/rruiqiu"><FaGithub color={"black"} size={"32px"} /></a>
-              <a className='iconpositionicon' href="https://github.com/rruiqiu"><FaLinkedin color={"#0072b1"} size={"32px"} /></a>
-              <a className='iconpositionicon' href="https://github.com/rruiqiu"><Icon icon="mdi:wechat" color="#09b83e" width="32" height="32" /></a>
+              <a className='iconpositionicon' href="https://github.com/rruiqiu" target="_blank" rel="noopener noreferrer"><FaGithub color={"black"} size={"32px"} /></a>
+              <a className='iconpositionicon' href="https://www.linkedin.com/in/rruiqiu/" target="_blank" rel="noopener noreferrer"><FaLinkedin color={"#0072b1"} size={"32px"} /></a>
+              {/* <a className='iconpositionicon' href="https://github.com/rruiqiu" target="_blank" rel="noopener noreferrer"><Icon icon="mdi:wechat" color="#09b83e" width="32" height="32" /></a> */}
+              <a className="iconpositionicon" href="https://drive.google.com/file/d/1o7KKdE5aJQRItD9JuWg49isheq3yBJzH/view?usp=sharing" target="_blank" rel="noopener noreferrer"><Icon icon="pepicons:cv" color="#0033cc" width="31" /></a>
             </div>
           </div>
         </Grid>

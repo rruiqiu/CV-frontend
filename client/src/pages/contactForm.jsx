@@ -38,9 +38,9 @@ const ConotactForm = () => {
     <div>
       <p id="form-text"></p>
       <form action="" method='POST' id="contact-form" >
-        <input type="text" onChange={handleChange} name="name" value={contact.name} placeholder="NAME" /><br />
+        <input type="text" onChange={handleChange} name="name" value={contact.name} placeholder="Name" /><br />
         <input type="text" onChange={handleChange} name='email' value={contact.email} placeholder="Email" /><br />
-        <textarea name="message" onChange={handleChange} id="" cols="30" rows="10" value={contact.message} placeholder="Please enter your text here"></textarea>
+        <textarea name="message" onChange={handleChange} id="" cols="30" rows="10" value={contact.message} placeholder="Leave me a message here, I will make sure to get in touch with you soon!"></textarea>
         <button type='submit' className='formButton' onClick={handleSubmit}>Submit</button>
       </form>
 

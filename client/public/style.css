@@ -237,7 +237,7 @@ h6.inline {
   border-radius: 15px;
   display: block;
   margin: auto;
-  border: 2mm ridge rgba(53, 198, 193, 0.6);
+  border: 2mm ridge rgb(47 112 187 / 60%);
 }
 
 #projects-container {
@@ -257,7 +257,7 @@ h6.inline {
 }
 .project-content {
   border-radius: 15px;
-  background-color: #83abd3;
+  background-color: rgb(131, 171, 211, 0.9);
   text-align: left;
   padding: 25px;
   width: 100%;
@@ -275,7 +275,7 @@ h6.inline {
   margin-right: 0.8em;
   margin-bottom: 0.4em;
   padding: 0.2em 0.5em;
-  background-color: rgba(64, 151, 194, 0.7);
+  background-color: rgb(64 159 194 / 80%);
   border-radius: 0.2em;
 }
 .project-button {
@@ -316,11 +316,11 @@ h6.inline {
 input,
 textarea {
   background-color: #98d4dd;
-  color: #f1f1f1;
+  color: #000000;
   padding: 0.5em;
   font-size: 1.1em;
   margin: 10px 0;
-  border: 2px solid #025bba;
+  border: 2px solid #2a8dc9;
   border-radius: 5px;
   font-family: inherit;
   width: 97%;
@@ -338,10 +338,16 @@ textarea {
   background-color: rgba(21, 141, 202, 0.149);
   color: #000a44;
   padding: 0.5em 2em;
-  font-size: 1.1em;
+  font-size: 1.2em;
   margin: 10px;
   border: 2px solid #0e468a;
   border-radius: 25px;
+}
+
+.formButton:hover {
+  background-color: rgba(29, 249, 0, 0.149);
+  color: #356806;
+  border: 2px solid #84c943;
 }
 
 @media (max-width: 1300px) {
@@ -357,12 +363,21 @@ textarea {
   background-color: #697686;
   justify-content: space-between;
 }
-
+@media (max-width: 660px) {
+  #footer {
+    display: flex;
+    text-align: center;
+    flex-direction: column;
+  }
+}
 .footericonposition {
   text-align: center;
   padding: 10px 20px;
+  color: white;
 }
-
+a.footericonposition:hover {
+  color: #6dd10f;
+}
 .links {
   padding: 10px;
 }
