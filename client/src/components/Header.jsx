@@ -21,7 +21,7 @@ function TextLinkExample () {
       </div>
       <Footer />
 
-    </section >
+    </section>
   )
 }
 

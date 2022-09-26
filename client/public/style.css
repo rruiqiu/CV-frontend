@@ -395,3 +395,14 @@ p.footerp {
   color: white;
   opacity: 0.8;
 }
+
+#userdata_page {
+  display: flex;
+  flex-direction: column;
+  list-style-type: none;
+  text-align: center;
+  justify-content: center;
+}
+.userdatabuttondeleteone {
+  margin-top: 10px;
+}
