@@ -27,6 +27,7 @@ const Login = () => {
       password: password
     })
       .then(function (res) {
+
         console.log(res.data);
         if (res.data.status) {
           authCtx.login(true)
