@@ -45,6 +45,7 @@ function Userdata () {
           <li>Name: {items.name}</li>
           <li>Email: {items.email} </li>
           <li>Message: {items.message} </li>
+          <li>Date: {items.time} </li>
           <div><button className='userdatabuttondeleteone' type="submit" onClick={() => handleDelete(items._id)}>Delete</button> </div> <br />
         </div>
       </div>)}

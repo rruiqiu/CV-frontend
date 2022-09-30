@@ -2,6 +2,7 @@ import React, { useState } from 'react'
 import Axios from 'axios'
 
 const ConotactForm = () => {
+
   const [contact, setContact] = useState({
     name: "",
     email: "",
@@ -9,10 +10,15 @@ const ConotactForm = () => {
   })
 
   const handleSubmit = (event) => {
+    var today = new Date();
+    var date = today.getFullYear() + '-' + (today.getMonth() + 1) + '-' + today.getDate();
+    var time = today.getHours() + ":" + today.getMinutes() + ":" + today.getSeconds();
+    var dateTime = date + ' ' + time;
     Axios.post("https://ps-portfolio-backend.herokuapp.com/information", {
       name: contact.name,
       email: contact.email,
-      message: contact.message
+      message: contact.message,
+      date: dateTime
     })
       .then(res => console.log(res.data))
       .catch(err => console.log(err))
@@ -21,7 +27,7 @@ const ConotactForm = () => {
     setContact({
       name: "",
       email: "",
-      message: ""
+      message: "",
     })
   }
   function handleChange (event) {
