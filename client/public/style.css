@@ -175,7 +175,7 @@ h6.inline {
 
 #about {
   background-color: #dbecfe;
-  padding-bottom: 40px;
+  padding-bottom: 45px;
 }
 
 .aboutContent {
@@ -249,7 +249,7 @@ h6.inline {
   flex-direction: row;
   justify-content: center;
   align-items: center;
-  margin-top: 20px;
+  margin-top: 30px;
 }
 
 .project-image {
@@ -301,6 +301,21 @@ h6.inline {
 @media (max-width: 750px) {
   .project {
     flex-direction: column;
+  }
+
+  .project-image {
+    margin-right: 0px;
+    margin-bottom: 12px;
+  }
+}
+
+@media (max-width: 900px) {
+  .size {
+    margin-right: 10px;
+    width: 265px;
+  }
+  .iconposition {
+    margin-right: 10px;
   }
 }
 
