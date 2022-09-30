@@ -21,11 +21,11 @@ function Userdata () {
   function handleDelete (id) {
     axios.delete("https://ps-portfolio-backend.herokuapp.com/userdata/" + id)
       .then(res => {
-        console.log("Deleted");
-        console.log(res.data);
+        // console.log("Deleted");
+        // console.log(res.data);
         alert(res.data)
         const result = userdata.filter(userdata => userdata._id !== id)
-        console.log(result);
+        // console.log(result);
         setUserdata(result)
       })
       .catch(err => console.log(err))
