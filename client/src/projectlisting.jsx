@@ -1,7 +1,7 @@
 const projectlisting = [
   {
     id: 1,
-    img: "/images/portfolio.png",
+    img: "https://bing.biturl.top/?resolution=1920&format=image&index=0&mkt=en-CA",
     name: "Personal-Portfolio",
     description: "Designed and built an online personal portfolio from scratch using React. Constructed a REST API backend for the contacts management frontend page. With authentication login and page router protection and more...",
     stack: ["React", "MongoDB", "Node.js", "Express"],
