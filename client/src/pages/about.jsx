@@ -4,7 +4,7 @@ import ContactMe from "./contact"
 import Intro from "./aboutIntro"
 import Projects from "./projects"
 import Footer from "./footer"
-import Skills from "./skills"
+// import Skills from "./skills"
 
 function About () {
   return (
@@ -15,7 +15,7 @@ function About () {
         navbar="navbar-aboutpage"
       />
       <Intro />
-      <Skills />
+      {/* <Skills /> */}
       <Projects />
       <ContactMe />
       <Footer />

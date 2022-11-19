@@ -5,7 +5,7 @@ const projectlisting = [
     name: "Personal-Portfolio",
     description: "Designed and built an online personal portfolio from scratch using React. Constructed a REST API backend for the contacts management frontend page. With authentication login and page router protection and more...",
     stack: ["React", "MongoDB", "Node.js", "Express"],
-    github: "https://github.com/rruiqiu/SPATIAL-MAPPING-USING-TIME-OF-FLIGHT",
+    github: "https://github.com/rruiqiu/CV-frontend",
     demo: "https://ruiqiu.netlify.app/",
   },
   {
@@ -23,7 +23,7 @@ const projectlisting = [
     name: "McMaster Recycling Plant Sorting System",
     description: "In a small group of three, designed and developed an efficient Python program for the McMaster Recycling Plant Sorting System, by using the IR(infrared) techniques, significantly increased the sorting accuracy from 50% to 93%",
     stack: ["Python", "Pandas"],
-    github: "https://github.com/rruiqiu/SPATIAL-MAPPING-USING-TIME-OF-FLIGHT",
+    github: "https://github.com/rruiqiu/Recycling-Plant-Sorting-System",
   }
 ];
 export default projectlisting;
