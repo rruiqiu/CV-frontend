@@ -24,6 +24,15 @@ const projectlisting = [
     description: "In a small group of three, designed and developed an efficient Python program for the McMaster Recycling Plant Sorting System, by using the IR(infrared) techniques, significantly increased the sorting accuracy from 50% to 93%",
     stack: ["Python", "Pandas"],
     github: "https://github.com/rruiqiu/Recycling-Plant-Sorting-System",
+  },
+  {
+    id: 4,
+    img: "/images/NNS.png",
+    name: "NNS (Newcomer Navigating System) - deltahack9",
+    description: "As a team that consisted of many international students, we realized the challenges that incoming international students face when coming to Canada. Challenges included finding housing as well as opening a credit card account once they arrived in Canada. Our idea is to centralize the most crucial information for incoming students.",
+    stack: ["React", "GoogleMapApi"],
+    github: "https://github.com/rruiqiu/delatahack9",
+    demo: "https://devpost.com/software/nns-newcomer-navigating-system",
   }
 ];
 export default projectlisting;

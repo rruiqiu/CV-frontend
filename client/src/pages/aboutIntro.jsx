@@ -13,7 +13,7 @@ function AboutIntro () {
       <Grid container spacing={1}>
         <Grid xs={12} md={8} display="flex">
           <div className='aboutContent'>
-            <p>Hi, my name is Rui Qiu. I am an electrical engineer and a self-learned web developer. I am enthusiastic about studying magic phenomena surrounding our daily life as well as exploring the newest modern web-developed technologies in the current world. As an engineer, I believe that the advancement of technology will bring us convenience in any aspects.</p>
+            <p>Hi, my name is Rui Qiu. I am currently a third year ECE student studying at McMaster University.  My academic interests lie in the fields of microelectronices, modern web technologies, embedded systems, and IoT devices. I am particularly keen on exploring the integration of AI with IoT devices. As a future engineer, I am driven to use my skills and knowledge to create innovative and intelligent solutions that can improve people's daily lives. My passion for technology and its potential to bring positive change fuels my desire to stay updated on the latest advancements in IoT, AI, and magic phenomena, with the goal of making a meaningful impact through technology.</p>
 
 
             <p className='Education'>Education: McMaster University - Bachelor of Electrical Engineering Co-Op(Level III) </p>
@@ -25,11 +25,11 @@ function AboutIntro () {
               <br />
               <br />
               <h6 className='inline'> Software Tools: </h6>
-              <p className='inline'>Git, MongoDB, Mongoose, Bash, Heroku, EJS, Authentication, REST API, Postman, AWS</p>
+              <p className='inline'>Git/Github, MongoDB, Mongoose, Bash, Heroku, EJS, Authentication, REST API, Postman, AWS</p>
               <br />
               <br />
-              <h6 className='inline'>Electrical Tools: </h6>
-              <p className='inline'>Embedded-C, Oscilloscope, Multimeters, LTspice, PSpice, Quartus, Simulink</p>
+              <h6 className='inline'>Hardware/Firmware: </h6>
+              <p className='inline'>Embedded-C, ROS, LTspice, Keil, Quartus, FreeRtos, CubeIDE, SEGGER SystemView, Realterm, Linux, Simulink, Oscilloscope, Multimeters, Soldering</p>
             </div>
 
           </div>
