@@ -33,6 +33,14 @@ const projectlisting = [
     stack: ["React", "GoogleMapApi"],
     github: "https://github.com/rruiqiu/delatahack9",
     demo: "https://devpost.com/software/nns-newcomer-navigating-system",
+  },
+  {
+    id: 5,
+    img: "/images/AEV.png",
+    name: "MAC AEV",
+    description: "Within a group of four, develop and integrate software and hardware modules for the McMaster AEV, which is built on a small-scale(1/10th) RC vehicle platform. Utilized Jeston Nano and ROS as the running environment for the AEV programs. Program the Electronic Speed Controller using the VESC tool and control from Jetson Nano. Utilize the SLAM to simultaneously construct a map of the unknown environment and localized itself in the map. Current realizing the static image classification and object detection.",
+    stack: ["C/C++", "Python", "VESC"],
+    github: "https://github.com/rruiqiu/MAC_AEV",
   }
 ];
 export default projectlisting;

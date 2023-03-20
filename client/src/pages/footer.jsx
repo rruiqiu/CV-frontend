@@ -12,7 +12,7 @@ function footer () {
       </div>
 
       <div className="footerparagraph">
-        <p className="footerp">Made with ❤️ by Rui Qiu</p>
+        <p className="footerp">Made by Rui 🔥</p>
       </div>
     </footer>
   )

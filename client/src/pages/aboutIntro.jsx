@@ -13,7 +13,7 @@ function AboutIntro () {
       <Grid container spacing={1}>
         <Grid xs={12} md={8} display="flex">
           <div className='aboutContent'>
-            <p>Hi, my name is Rui Qiu. I am currently a third year ECE student studying at McMaster University.  My academic interests lie in the fields of microelectronices, modern web technologies, embedded systems, and IoT devices. I am particularly keen on exploring the integration of AI with IoT devices. As a future engineer, I am driven to use my skills and knowledge to create innovative and intelligent solutions that can improve people's daily lives. My passion for technology and its potential to bring positive change fuels my desire to stay updated on the latest advancements in IoT, AI, and magic phenomena, with the goal of making a meaningful impact through technology.</p>
+            <p>Hi, my name is Rui Qiu. I am currently a third-year ECE student studying at McMaster University.  My academic interests lie in the fields of microelectronics, modern web technologies, embedded systems, and IoT devices. I am particularly keen on exploring the integration of AI with IoT devices. As a future engineer, I am driven to use my skills and knowledge to create innovative and intelligent solutions that can improve people's daily lives. My passion for technology and its potential to bring positive change fuels my desire to stay updated on the latest advancements in IoT, AI, and magic phenomena, with the goal of making a meaningful impact through technology.</p>
 
 
             <p className='Education'>Education: McMaster University - Bachelor of Electrical Engineering Co-Op(Level III) </p>
