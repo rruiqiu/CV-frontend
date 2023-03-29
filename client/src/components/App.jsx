@@ -5,7 +5,7 @@ import Userdata from "../Data/Userdata"
 import Login from "../Data/login"
 import AuthContext from "../store/auth-context"
 import { useContext } from "react"
-
+import Demo from "./DemoAEV"
 
 function App () {
   const authCtx = useContext(AuthContext)
@@ -24,6 +24,7 @@ function App () {
             <p>There's nothing here!</p>
           </main>
         } />
+        <Route path="/AEVdemo" element={<Demo />} />
       </Routes>
     </div>
   )
